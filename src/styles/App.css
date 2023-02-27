@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: rgba(16, 15, 15, 0.927);}
+a {color: white;}
+.sidebar {font-size: 1.25rem;opacity: 0.5;transition: opacity 400ms ease;}
+.sidebar:hover {opacity: 1;transition: opacity 400ms ease;}
+.rounded {position: relative; cursor: pointer;}
+.fa-circle-user[data-value-hidden] {position: absolute;left: 27%;opacity: 0;}
+.main-page-header {font-size: 3rem; cursor: default;}
